@@ -1,0 +1,50 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+@font-face{
+  font-family: 'Hipster';
+  src:url("fonts/hipster-icons.ttf");
+
+}
+
+@media(min-width:767px) {
+
+    .navbar {
+        height:20%; 
+        padding: 20px 0;
+        text-align: center;
+        background-color: transparent;
+        background: transparent;
+        border-color: transparent;
+
+    }
+    .navbar .navbar-nav{
+        font-family: 'aqua';
+
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar-default .navbar-nav > li > a:hover,
+    .navbar-default .navbar-nav > li > a:focus {
+        color: #fff;
+        text-shadow: 2px 2px 4px #000;
+    }
+     .navbar-default .navbar-nav > .active > a, 
+     .navbar-default .navbar-nav > .active > a:hover, 
+     .navbar-default .navbar-nav > .active > a:focus {
+          color: #fff;
+          text-shadow: 2px 2px 4px #000;
+          background-color: transparent;
+     }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+
+

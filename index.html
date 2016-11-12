@@ -7,55 +7,110 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 
 
   </head>
 
 
-  <body>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-bottom">
 
+    <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!--
+                    <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a>
+                    -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse">
+                    <ul class="nav navbar-nav">
+                        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                        <li class="hidden">
+                            <a class="page-scroll" href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#intro"><i class="fa fa-snowflake-o fa-2x" aria-hidden="true"></i><br>Home</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about"><i class="fa fa-star fa-2x" aria-hidden="true"></i><br>About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#gallery"><i class="fa fa-camera-retro fa-2x" aria-hidden="true"></i><br>Gallery</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+  <!-- Home Section -->
+    <section id="intro" class="intro-section">
       <div class= "pg1"> 
-        <div class="caption"> <span class="border">THE HIPSTER <hr></span> 
+       
+          <span class="border caption"> THE HIPSTER <hr></span> 
+        
+
           <!--Add horizontal line-->
 
           <!--add caption below title-->
-        </div>
+        
 
       </div>
+    </section>
 
+  <!-- About Section -->
+    <section id="about" class="about-section">
       <div class="pg2">
          <!--Lgay in the middle-->
         <h1>ABOUT</h1>
         <p>
-        <h4>Name</h4> <br>
-        <h4>Birthday </h4><br>
+        <h4>Name</h4> Liezelle B. Awa<br>
+        <h4>Birthday </h4>November 27, 1999<br>
         <h4>School</h4> <br>
         <h4>Year level &amp; Degree</h4> <br>
-        <h4>Interests </h4><br>
+        <h4>Hobbies</h4>drawing, writing, singing, reading fanfiction, bowling, horseback riding, being awesome<br>
         <h4>Description</h4>
 
-
-
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <br>
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+        If there's one thing people should know about me it's that I love to stand out and that's why I hate mundane things. I've always want to try new and different things like waltzing under the rain or hugging trees. That's why I strive to leave my mark in this world, I want to be able to make an impact and change things for the better, especially in the Philippines and I think one of the best ways to do that is through Computer Science. 
         </p>
       </div>
-
+    </section>
+  <!-- Gallery Section-->
+    <section id="gallery" class="gallery-section">
       <div class="pg3">
-        
+                
+       <div class="tabbable">
+            <ul class="nav nav-pills nav-stacked col-md-3">
+                <h1>Gallery</h1>
+                <li class="active"><a href="#photos" class="photos-tab" data-toggle="tab">Photos</a></li>
+                <li ><a href="#works" class="works-tab" data-toggle="tab">Works</a></li>
+                <li ><a href="#poems" class="poems-tab" data-toggle="tab">Poems</a></li>
+            </ul>
+            <div class="tab-content col-md-9">
+                <div class="tab-pane active" id="photos">Lorem ipsum dolor sit amet, charetra varius rci quis tortor imperdiet venenatis quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae, gravida a libero.</div>
+                <div class="tab-pane" id="works">Secondo sed ac orci quis tortor imperdiet venenatis. Duis elementum auctor accumsan. Aliquam in felis sit amet augue.</div>
+                <div class="tab-pane" id="poems">Thirdamuno, ipsum dolor sit amet, consectetur adipiscing elit. Duis elementum auctor accumsan. Duis pharetra
+                varius quam sit amet vulputate. Quisque mauris augue, molestie tincidunt condimentum vitae. </div>
+            </div>
+        </div>
+      <!--
         <div class="container-fluid grid-custom">
         <h1> Gallery</h1>
           <div class="row">
-
-
-
             <div class="col-sm-6 col-xs-12 col-md-4">
               <img class="img-responsive " src="imgs/img2.jpg">
             </div>
@@ -70,17 +125,14 @@
             <div class="col-sm-2 col-xs-4">
               <img class="img-responsive" src="imgs/img4.jpg">
             </div>
-            
-
-
           </div>
         
+        </div>
+      -->
       </div>
-      </div>
-      <div class="pg4 poems">
-      </div>
-       
-      </div>
+    </section>
+
+
 
 
     <!-- Bootstrap core JavaScript
@@ -88,6 +140,11 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
 
   </body>
 </html>
