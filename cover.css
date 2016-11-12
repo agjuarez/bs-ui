@@ -1,0 +1,103 @@
+
+
+
+@font-face{
+  font-family: 'aqua';
+  src:url("fonts/aqua.ttf");
+
+}
+
+
+
+
+body,html{
+  height: 100%;
+  margin: 0;
+  
+
+}
+
+
+
+.pg1,.pg2{
+  opacity: .9;
+}
+.pg1,.pg2,.pg3{
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.pg1 {
+  background-image: url("imgs/cover.jpg");
+  min-height: 100%;
+}
+
+
+.pg2{
+  color: #fff;
+  background-image: url("imgs/cover2.jpg");
+  padding: 50px 80px;
+  text-align: justify;
+  font-family: Helvetica;
+  min-height: 100%;
+}
+.pg3{
+  background-color: #040F16 ;
+  min-height: 100%;
+  
+  color:#fff;
+
+}
+.pg4{
+  font-size: 10px;
+  font-family:'Arial';
+
+}
+
+.caption,span.border{
+
+  color: #fff;
+  padding: 18px;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 18px;
+  font-size: 100px;
+  letter-spacing: 10px;
+
+}
+
+
+.caption{
+  font-family: 'aqua';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+div {
+  display: block;
+}
+
+  
+.grid-custom .col-sm-6,
+.grid-custom .col-xs-6,
+.grid-custom .col-xs-12,
+.grid-custom .col-sm-3,
+.grid-custom .col-xs-4,
+.grid-custom .col-sm-2,
+.grid-custom .col-md-4 {
+    padding:5px;
+}
+
+.row img{
+  max-height: 100%;
+  max-width: 100%;
+}
