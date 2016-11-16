@@ -9,6 +9,7 @@ $(window).scroll(function() {
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
+         $(".navbar").hide().fadeOut("slow");
 
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
