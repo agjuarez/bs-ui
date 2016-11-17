@@ -121,24 +121,24 @@
                     <div class="grid">
 
                       <div class="grid-sizer"></div>
-                       <div class="grid-item"><img src="imgs/img3.jpg" ></div>
-                        <div class="grid-item"><img src="imgs/img6.jpg" ></div>
-                        <div class="grid-item"><img src="imgs/cover2.jpg" ></div>
+                       <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img3.jpg" ></div>
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img6.jpg" ></div>
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/cover2.jpg" ></div>
 
-                        <div class="grid-item"><img src="imgs/img5.jpg" ></div>
-                        <div class="grid-item"><img src="imgs/img7.jpg" ></div>
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img5.jpg" ></div>
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img7.jpg" ></div>
 
 
                    
 
 
-                        <div class="grid-item"><img src="imgs/img4.jpg" ></div>
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img4.jpg" ></div>
 
 
 
-                        <div class="grid-item"><img src="imgs/img2.jpg" ></div>
-                        <div class="grid-item"><img src="imgs/img1.jpg" ></div> 
-                        <div class="grid-item"><img src="imgs/cover.jpg" ></div>   
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img2.jpg" ></div>
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/img1.jpg" ></div> 
+                        <div class="grid-item"><img data-toggle="modal" data-target="#myModal" src="imgs/cover.jpg" ></div>   
  
                     </div>
 
@@ -148,18 +148,20 @@
 
                 <!-- Works Tab -->
                 <div class="tab-pane fade" id="works">
-                    <div class="grid masonry-container">
+                    <div class="grid">
 
                       <div class="grid-sizer"></div>
-                        <div class="grid-item"> <a href="#gallery"><img class="thumbnail img-responsive" src="imgs/lineart.png" ></div>
-                        <div class="grid-item"><a href="#gallery"><img class="thumbnail img-responsive" src="imgs/work1.png" ></a></div>
-                        <div class="grid-item"><a href="#gallery"><img class="thumbnail img-responsive" src="imgs/redraw.png" ></a></div>
 
 
+                        <div class="grid-item"> <img class="img-responsive" data-toggle="modal" data-target="#myModal" src="imgs/lineart.png"> </div>
 
-                        <div class="grid-item"><a href="#gallery"><img class="thumbnail img-responsive" src="imgs/RubyRose.png" ></a></div>
+                        <div class="grid-item"><a href="#gallery"><img class="thumbnail img-responsive" data-toggle="modal" data-target="#myModal" src="imgs/redraw.png" ></a></div>
 
-                        <div class="grid-item"><a href="#gallery"><img class="thumbnail img-responsive" src="imgs/Sunday-Morning.png" ></a></div>
+                        <div class="grid-item"><a href="#gallery"><img class="img-responsive" data-toggle="modal" data-target="#myModal" src="imgs/Sunday-Morning.png" ></a></div>
+
+
+                        <div class="grid-item"><a href="#gallery"><img class=" img-responsive" data-toggle="modal" data-target="#myModal" src="imgs/RubyRose.png" ></a></div>
+                        <div class="grid-item"><a href="#gallery"><img class=" img-responsive" data-toggle="modal" data-target="#myModal" src="imgs/work1.png" ></a></div>
 
 
 
@@ -168,7 +170,6 @@
                     </div>
 
 
-                
 
                 </div><!-- Works Tab End -->
 
@@ -180,14 +181,16 @@
                     <div class="panel panel-default">
 
                     <!--Poem #1-->
+                      <a class="accordion-body collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+
                       <div class="panel-heading" role="tab" id="headingOne">
                         <h4 class="panel-title">
-                          <a class="accordion-body collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 
                             Coffee
-                          </a>
+                          
                         </h4>
                       </div>
+                      </a>
                       <div id="collapseOne" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
                             <div class="container">
@@ -218,13 +221,15 @@
 
                     <!--Poem #2-->
                     <div class="panel panel-default">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
                       <div class="panel-heading" role="tab" id="headingTwo">
                         <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                             Maybe
-                          </a>
+                          
                         </h4>
                       </div>
+                      </a>
                       <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                         <div class="panel-body">
                           <div id="this-carousel-id" class="carousel slide" data-interval=false>
@@ -334,13 +339,15 @@
 
                     <!--Poem #3-->
                     <div class="panel panel-default">
+                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
                       <div class="panel-heading" role="tab" id="headingThree">
                         <h4 class="panel-title">
-                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                             Dancing With Demons
-                          </a>
+                          
                         </h4>
                       </div>
+                      </a>
                       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                         <div class="panel-body">
                           <div id="this-carousel-id2" class="carousel slide" data-interval=false>
@@ -479,22 +486,16 @@
     </section>
 
 
-<div tabindex="-1" class="modal fade" id="myModal" role="dialog">
-  <div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header">
-    <button class="close" type="button" data-dismiss="modal">×</button>
-    <h3 class="modal-title">Heading</h3>
-  </div>
-  <div class="modal-body">
-    
-  </div>
-  <div class="modal-footer">
-    <button class="btn btn-default" data-dismiss="modal">Close</button>
-  </div>
-   </div>
-  </div>
-</div>
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img class="modal-image" src="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
 
 
     <!-- Bootstrap core JavaScript
@@ -502,6 +503,8 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- Modal JavaScript -->
+    <script src="js/modal.js"></script>
 
     <!-- Masonry JavaScript -->
     <script src="js/imagesloaded.pkgd.min.js"></script>    
@@ -516,8 +519,6 @@
     <script src="js/scrolling-nav.js"></script>
 
 
-    <!-- Modal JavaScript -->
-    <script src="js/modal.js"></script>
 
 
 
