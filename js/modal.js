@@ -1,7 +1,6 @@
-$(document).ready(function() {
-$('.thumbnail').click(function(){
-      $('.modal-body').empty();
-  	$($(this).parents('div').html()).appendTo('.modal-body');
-  	$('#myModal').modal({show:true});
-});
+$(document).ready(function () {
+        $('#myModal').on('show.bs.modal', function (e) {
+            var image = $(e.relatedTarget).attr('src');
+            $(".modal-image").attr("src", image);
+        });
 });
